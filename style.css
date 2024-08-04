@@ -22,12 +22,6 @@ main {
   border-radius: 5px;
 }
 
-#Card {
-  h2 {
-    text-align: center;
-  }
-}
-
 #DatosTemp {
   display: flex;
   flex-direction: row;
@@ -40,6 +34,16 @@ p {
 }
 
 #Card {
+  h2 {
+    text-align: center;
+  }
+
+  #InputCiudad {
+    border: 2px solid black;
+    padding: 4px;
+    text-align: center;
+  }
+
   #DatoCiudad {
     font-weight: 800;
     font-size: 24px;
